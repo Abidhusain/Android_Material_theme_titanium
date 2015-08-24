@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="customtheme_color">#00205b</color>
+    <color name="primary">#1E4FA9</color>
+    <color name="primaryDark">#00205b</color>
+    <color name="colorHighlight">#00205b</color>
+    <color name="textPrimary">#00205b</color>
+</resources>

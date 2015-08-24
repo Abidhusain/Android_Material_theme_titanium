@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="CustomTheme" parent="Theme.AppCompat.Light">
+		<!-- ActionBar Color with Material Support -->
+		<item name="colorPrimary">@color/primary</item>
+		<!-- ActionBar Dark Color with Material Support -->
+		<item name="colorPrimaryDark">@color/primaryDark</item>
+		<!-- default Widgets Active Color with Material Support -->
+		<item name="colorAccent">@color/primaryDark</item>
+		<!-- default Widgets Highlight Color with Material Support -->
+		<item name="colorControlHighlight">@color/colorHighlight</item>
+		<!-- NavigationBar Color with Material Support -->
+		<item name="android:navigationBarColor">@color/primary</item>
+		<!-- StatusBar Color with Material Support -->
+		<item name="android:statusBarColor">@color/primaryDark</item>
+		<!-- Text Default Color with Material Support -->
+		<item name="android:textColorPrimary">@color/textPrimary</item>
+		<!-- Support -->
+		<item name="android:editTextStyle">@style/EditTextCustomTheme</item>
+		<item name="android:textColorHighlight">#9900205b</item>
+		<item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewCustomTheme</item>
+		<item name="android:checkboxStyle">@style/CheckBoxCustomTheme</item>
+		<item name="android:radioButtonStyle">@style/RadioButtonCustomTheme</item>
+		<item name="android:buttonStyle">@style/ButtonCustomTheme</item>
+		<item name="android:imageButtonStyle">@style/ImageButtonCustomTheme</item>
+		<item name="android:spinnerStyle">@style/SpinnerCustomTheme</item>
+		<item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemCustomTheme</item>
+		<item name="android:progressBarStyleHorizontal">@style/ProgressBarCustomTheme</item>
+		<item name="android:seekBarStyle">@style/SeekBarCustomTheme</item>
+		<item name="android:ratingBarStyle">@style/RatingBarCustomTheme</item>
+		<item name="android:ratingBarStyleIndicator">@style/RatingBarBigCustomTheme</item>
+		<item name="android:ratingBarStyleSmall">@style/RatingBarSmallCustomTheme</item>
+		<item name="android:buttonStyleToggle">@style/ToggleCustomTheme</item>
+		<item name="android:listViewStyle">@style/ListViewCustomTheme</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewCustomTheme.White</item>
+		<item name="android:spinnerItemStyle">@style/SpinnerItemCustomTheme</item>
+		<item name="android:actionBarTabStyle">@style/TabCustomTheme</item>
+	</style>
+</resources>

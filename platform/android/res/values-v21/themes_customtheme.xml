@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="CustomTheme" parent="@style/_CustomTheme"/>
+	<style name="_CustomTheme" parent="Theme.AppCompat.Light">
+		<!-- ActionBar Color with Material Support -->
+		<item name="colorPrimary">@color/primary</item>
+		<!-- ActionBar Dark Color with Material Support -->
+		<item name="colorPrimaryDark">@color/primaryDark</item>
+		<!-- default Widgets Active Color with Material Support -->
+		<item name="colorAccent">@color/primaryDark</item>
+		<!-- default Widgets Highlight Color with Material Support -->
+		<item name="colorControlHighlight">@color/colorHighlight</item>
+		<!-- NavigationBar Color with Material Support -->
+		<item name="android:navigationBarColor">@color/primary</item>
+		<!-- StatusBar Color with Material Support -->
+		<item name="android:statusBarColor">@color/primaryDark</item>
+		<!-- Text Default Color with Material Support -->
+		<item name="android:textColorPrimary">@color/textPrimary</item>
+	</style>
+
+</resources>

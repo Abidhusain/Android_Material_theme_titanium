@@ -1,0 +1,96 @@
+".container": {
+	backgroundColor: "white",
+	layout: 'vertical'
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+},
+"#elementsList":{
+	top: 0,
+	right: 0,
+	left: 0,
+	height: Titanium.UI.FILL,
+	backgroundColor: "white",
+	focusable: true
+}
+"ListItem": {
+	height: 70,
+	color: "blue",
+	backgroundColor: "transparent",
+	focusable: true,
+	selectedBackgroundColor: 'blue'
+},
+"#basicComponentScrollView":{
+	top: 0,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	backgroundColor: "#F5F5F5",
+	layout: 'vertical',
+	contentWidth: Titanium.UI.FILL,
+	contentHeight: Titanium.UI.SIZE
+},
+".lblCommonHeading":{
+	top: 10,
+	left: 10,
+	font:{
+		fontSize: 12,
+		fontWeight: 'bold'
+	},
+	color: "#454545"
+},
+"#switchSimple":{
+	left: 10,
+	value: true
+},
+"#btnSimple":{
+	left: 10,
+	right: 10,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	title: " Sample "
+},
+"#picker":{
+	left: 10,
+	right: 10,
+	height: Titanium.UI.SIZE,
+	color: "#00205B",
+	useSpinner: false
+},
+".checkSimple":{
+	left: 10,
+	value: true,
+	color: "#00205B"
+},
+".checkSimple[platform=android]":{
+	style: Titanium.UI.Android.SWITCH_STYLE_CHECKBOX
+}
+"#checkTrue":{
+	title: "isUsable"
+},
+"#checkFalse":{
+	title: "isNotUsable"
+},
+"#toggleSwitch":{
+	left: 10,
+	value: true
+},
+"#toggleSwitch[platform=android]":{
+	style: Titanium.UI.Android.SWITCH_STYLE_TOGGLEBUTTON
+}
+"#textFieldSimple":{
+	left: 10,
+	right: 10,
+	height: Titanium.UI.SIZE,
+	color: "#00205B",
+	hintTextColor: "#CBBF18",
+	hintText: 'Enter Your Name Here'
+},
+"#imgButtonSimple":{
+	left: 10,
+	image: "/images/ic_action_action_today.png",
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE
+}
