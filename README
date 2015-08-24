@@ -1,17 +1,21 @@
 Welcome to your Appcelerator Titanium Mobile Project
 
 # Here we add support of AppCompact Library for Material Theme Support.
-# We have to just add few code in our custom theme as showed in our platform/androi/res/values/themes_customtheme.xml file
+# We have to just add few code in our custom theme as showed in our platform/android/res/values/themes_customtheme.xml file
 
 
-# <item name="colorPrimary">@color/primary</item>
+1. <item name="colorPrimary">@color/primary</item>
 
-# <item name="colorPrimaryDark">@color/primaryDark</item>
+2. <item name="colorPrimaryDark">@color/primaryDark</item>
 
-# <item name="colorAccent">@color/primaryDark</item>
+3. <item name="colorAccent">@color/primaryDark</item>
 
-# <item name="colorControlHighlight">@color/colorHighlight</item>
+4. <item name="colorControlHighlight">@color/colorHighlight</item>
 
-# <item name="android:navigationBarColor">@color/primary</item>
+5. <item name="android:navigationBarColor">@color/primary</item>
 
-# <item name="android:statusBarColor">@color/primaryDark</item>
+6. <item name="android:statusBarColor">@color/primaryDark</item>
+
+
+# Above codes change the Navigationbar BackgroundColor, Statusbar BackgroundColor,
+# ActionBar BackgroundColor and also selection on Widgets BackgroundColor.
